@@ -15,9 +15,6 @@ export const CreateNewUser = functionsV1.auth.user().onCreate(async (user, conte
       updatedAt: context.timestamp,
     })
 
-    if(!result){
-        throw new Error('Failed to create user document in Firestore');
-    }
     console.log('New user created:', uid, email, displayName);
   } catch (error) {
     console.error('Error creating new user:', error);
