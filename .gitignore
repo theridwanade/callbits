@@ -11,6 +11,8 @@ firebase-debug.*.log*
 node_modules
 # Firebase cache
 .firebase/
+.turbo
+.turbo/
 
 # Firebase config
 
