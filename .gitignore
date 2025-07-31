@@ -12,7 +12,7 @@ node_modules
 # Firebase cache
 .firebase/
 .turbo
-.turbo/
+.turbo/*
 
 # Firebase config
 
