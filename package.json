@@ -1,0 +1,28 @@
+{
+  "name": "callbits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A clean and scalable monorepo for callbits project",
+  "private": "true",
+  "repository": "https://github.com/theridwanade/callbits",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "clean": "turbo clean",
+    "test": "turbo test"
+  },
+  "author": "theridwanade <theridwanade@gmail.com>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "turbo": "^1.13.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "apps/*"
+  ]
+}
